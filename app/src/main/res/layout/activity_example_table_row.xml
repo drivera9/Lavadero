@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/proyectoWMS_METRO_Theme.Layout.RelativeProcesos">
+    <include layout="@layout/progressbar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/LayoutLinearMercar">
+
+        <TextView
+            style="@style/proyectoWMS_METRO_Theme.TextView.Titulo"
+            android:text="Mercar"
+            android:id="@+id/textView_titulo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:background="#FFFFFF"
+            android:layout_height="50dp"
+            style="@style/proyectoWMS_METRO_Theme.EditText.EditTextBodega"
+            android:id="@+id/PLU"
+            android:nextFocusDown="@+id/PLU"
+            android:layout_below="@+id/textView_titulo"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/textError"/>
+
+    <ExpandableListView
+        android:id="@+id/listaMercado"
+        style="@style/proyectoWMS_METRO_Theme.Lista"
+        android:layout_below="@+id/PLU"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+    </ExpandableListView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="Enter"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                style="@style/proyectoWMS_METRO_Theme.Button.AceptarLogin"
+                android:onClick="enter"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:text="Salir"
+                android:id="@+id/button8"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                style="@style/proyectoWMS_METRO_Theme.Button.CancelarLogin"
+                android:onClick="salir"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/proyectoWMS_METRO_Theme.GridView"
+    android:background="@drawable/cell_shape_informe"
+    android:id="@+id/layout">
+
+    <TextView
+        android:textSize="10dp"
+        style="@style/proyectoWMS_METRO_Theme.TextView.TextViewGrid"
+        android:id="@+id/item_text">
+    </TextView>
+
+</RelativeLayout>

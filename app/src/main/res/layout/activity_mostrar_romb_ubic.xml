@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/proyectoWMS_METRO_Theme.Layout.RelativeProcesos"
+    tools:context="com.example.david.proyectowms.MostrarRombUbic">
+
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView4"
+        android:layout_centerHorizontal="true"
+        android:numColumns="1"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

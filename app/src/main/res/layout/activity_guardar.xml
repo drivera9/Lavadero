@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/proyectoWMS_METRO_Theme.Layout.RelativeProcesos"
+    tools:context="com.example.david.proyectowms.Guardar"
+    android:id="@+id/GUARDAR">
+
+
+            <GridView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:id="@+id/gridView5"
+                android:numColumns="2"
+                android:gravity="left"/>
+
+
+            <LinearLayout
+
+                style="@style/proyectoWMS_METRO_Theme.Layout.LinearLoginBotones">
+
+                <Button
+                    style="@style/proyectoWMS_METRO_Theme.Button.AceptarLogin"
+                    android:text="Guardar"
+                    android:id="@+id/button_guardar"
+                    android:onClick="prueba" />
+
+                <Button
+                    style="@style/proyectoWMS_METRO_Theme.Button.CancelarLogin"
+                    android:text="Regresar"
+                    android:id="@+id/button_regresar"
+                    android:onClick="regresar" />
+            </LinearLayout>
+
+</LinearLayout>

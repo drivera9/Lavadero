@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.david.proyectowms">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ciclosplash"
+        android:label="Gestion CicloSplash">
+        <activity
+            android:name=".Login"
+            android:label="Gestion CicloSplash"
+            android:theme="@style/proyectoWMS_METRO_Theme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuOpciones2"
+            android:label="Menu" />
+        <activity
+            android:name=".Terminar"
+            android:label="Terminar" />
+        <activity
+            android:name=".GuardarTerminar"
+            android:label="Guardar Terminar" />
+        <activity
+            android:name=".BodegaTerminar"
+            android:label="Terminar Sucursal" />
+        <activity
+            android:name=".BodegaRomboTerminar"
+            android:label="Terminar Rombo" />
+        <activity
+            android:name=".GuardarValidacion"
+            android:label="Guardar validacion" />
+        <activity
+            android:name=".Recepcion"
+            android:label="Recepcion" />
+        <activity
+            android:name=".Camara"
+            android:label="Camara" />
+        <activity
+            android:name=".BodegaMercar2"
+            android:label="Mercar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".GuardarProducto"
+            android:label="Nuevo producto" />
+        <activity
+            android:name=".RecepcionValidacion"
+            android:label="Validacion" />
+        <activity
+            android:name=".Procesos"
+            android:label="@string/title_activity_procesos"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".BodegaMercar"
+            android:label="Mercar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".MostrarDatosMatricula"
+            android:label="Mostrar Datos Matricula" />
+        <activity
+            android:name=".MostrarRombUbic"
+            android:label="Mostrar Rombos y Ubicaciones" />
+        <activity
+            android:name=".Guardar"
+            android:label="@string/title_activity_guardar" />
+        <activity
+            android:name=".Bodega"
+            android:label="Bodega Sucursal" />
+        <activity
+            android:name=".BodegaRombo"
+            android:label="Bodega Rombo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Prueba"
+            android:label="@string/title_activity_prueba" />
+        <activity
+            android:name=".Despacho"
+            android:label="@string/title_activity_despacho" />
+        <activity
+            android:name=".Entrega"
+            android:label="@string/title_activity_entrega" />
+        <activity
+            android:name=".Mensajeria"
+            android:label="@string/title_activity_mensajeria" />
+        <activity
+            android:name=".MostrarCliente"
+            android:label="Cliente"
+            android:theme="@style/proyectoWMS_METRO_Theme.Layout.LinearLogin"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".BodegaGeneral"
+            android:label="@string/title_activity_bodega_general" />
+        <activity android:name=".Validacion" />
+        <activity android:name=".Facturacion" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Imprimir" />
+        <activity android:name=".AmpliarImagen" />
+        <activity android:name=".Corregir" />
+        <activity android:name=".CalendarioSoat" />
+        <activity android:name=".CalendarioPrueba" />
+        <activity
+            android:name=".MostrarModelo"
+            android:theme="@style/proyectoWMS_METRO_Theme.Layout.LinearLogin" />
+        <activity
+            android:name=".Cotizacion"
+            android:theme="@style/proyectoWMS_METRO_Theme.Layout.LinearLogin" />
+        <activity
+            android:name=".CambiarPromesa"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity
+            android:name=".Evento"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity android:name=".RomboEvento" />
+        <activity android:name=".CambiarFecha" />
+        <activity
+            android:name=".CambiarFechaDetalle"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity android:name=".Traslado" />
+        <activity android:name=".BodegaTraslado" />
+        <activity
+            android:name=".CambiarSede"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity
+            android:name=".CrearCliente"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity android:name=".MostrarLista" />
+        <activity
+            android:name=".Eliminar"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity
+            android:name=".MostrarPlaca"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity
+            android:name=".CambiarLavador"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity android:name=".Calificacion" />
+        <activity android:name=".GuardarCalificacion" />
+        <activity
+            android:name=".PlacaCalificacion"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity
+            android:name=".CambiarPrecio"
+            android:theme="@style/proyectoWMS_METRO_Theme" />
+        <activity android:name=".Informe" />
+        <activity android:name=".TipoCarroInforme"
+            android:theme="@style/proyectoWMS_METRO_Theme"/>
+    </application>
+
+</manifest>

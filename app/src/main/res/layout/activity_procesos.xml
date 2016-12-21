@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.david.proyectowms.Procesos"
+    style="@style/proyectoWMS_METRO_Theme.Layout.RelativeProcesos"
+    >
+    <include layout="@layout/progressbar"
+        android:id="@+id/include" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/LayoutRelativeProcesos">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SINCRONIZAR BASE DE DATOS LOCAL"
+            android:onClick="sincronizar"
+            android:id="@+id/sincronizar"/>
+    <ListView
+        style="@style/proyectoWMS_METRO_Theme.TextView.Titulo"
+        android:id="@+id/listView2"/>
+
+   </LinearLayout>
+</RelativeLayout>

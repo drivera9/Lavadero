@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.david.proyectowms.MostrarDatosNit">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre1"
+        android:id="@+id/textView19"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="63dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_nombre1"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_toRightOf="@+id/textView19"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre2"
+        android:id="@+id/textView20"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_nombre2"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignLeft="@+id/textView_nombre1"
+        android:layout_alignStart="@+id/textView_nombre1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cedula"
+        android:id="@+id/textView21"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_cedula"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignLeft="@+id/textView_nombre2"
+        android:layout_alignStart="@+id/textView_nombre2"
+        android:layout_alignRight="@+id/textView_nombre2"
+        android:layout_alignEnd="@+id/textView_nombre2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido1"
+        android:id="@+id/textView23"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_apellido1"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_alignLeft="@+id/textView_cedula"
+        android:layout_alignStart="@+id/textView_cedula"
+        android:layout_alignRight="@+id/textView_cedula"
+        android:layout_alignEnd="@+id/textView_cedula" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido2"
+        android:id="@+id/textView25"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_apellido2"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignLeft="@+id/textView_apellido1"
+        android:layout_alignStart="@+id/textView_apellido1"
+        android:layout_alignRight="@+id/textView_apellido1"
+        android:layout_alignEnd="@+id/textView_apellido1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salir"
+        android:id="@+id/button6"
+        android:layout_below="@+id/textView_apellido2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:onClick="salir"/>
+</RelativeLayout>

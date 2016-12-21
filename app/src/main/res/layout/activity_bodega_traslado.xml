@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    style="@style/proyectoWMS_METRO_Theme.Layout.RelativeProcesos"
+    tools:context="com.example.david.proyectowms.BodegaRombo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/proyectoWMS_METRO_Theme.TextView.Titulo"
+            android:text="Rombos"
+            android:id="@+id/textView27"
+            />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/gridView10"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:numColumns="2"/>
+
+
+
+        <GridView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/gridView7"
+            android:numColumns="2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/gridView10"
+            android:layout_above="@+id/gridView13" />
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="@style/proyectoWMS_METRO_Theme.Button.CancelarLogin"
+                android:text="Cancelar"
+                android:id="@+id/button10"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:onClick="cancelar"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

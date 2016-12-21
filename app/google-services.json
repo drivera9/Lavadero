@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057954740138",
+    "project_id": "autoalert-1229"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057954740138:android:5ee47bf003fa0c98",
+        "android_client_info": {
+          "package_name": "proyecto2016.eafit.autoalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057954740138-4j4oc76583d2ta8g3l8l62k3tn2pn04e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "proyecto2016.eafit.autoalert",
+            "certificate_hash": "B7D7F355DBCD23D7B64EE4F5EF5D3EE2D32D27C2"
+          }
+        },
+        {
+          "client_id": "1057954740138-qegpvsfsakvs0onkau3s29d0g3fut715.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAan_roKqgc6Zl-uLCi-q55ATtzjJdRjCQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

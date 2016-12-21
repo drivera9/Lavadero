@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:id="@+id/gridView"
+        android:numColumns="5"
+
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLU"
+        android:id="@+id/textView_plu"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_alignBottom="@+id/editText_plu"
+        android:layout_toLeftOf="@+id/editText_plu"
+        android:layout_toStartOf="@+id/editText_plu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubic"
+        android:id="@+id/textView_ubic"
+        android:layout_alignTop="@+id/spinner_opciones"
+        android:layout_alignRight="@+id/textView_plu"
+        android:layout_alignEnd="@+id/textView_plu" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_opciones"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/spinner_opcionesvisibles"
+        android:layout_alignStart="@+id/spinner_opcionesvisibles" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cant"
+        android:id="@+id/textView_cant"
+        android:layout_alignBottom="@+id/editText_cant"
+        android:layout_alignLeft="@+id/textView_plu"
+        android:layout_alignStart="@+id/textView_plu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRP"
+        android:id="@+id/textView_grp"
+        android:layout_below="@+id/textView_cant"
+        android:layout_alignLeft="@+id/textView_cant"
+        android:layout_alignStart="@+id/textView_cant"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_cant"
+        android:layout_below="@+id/spinner_opciones"
+        android:layout_alignLeft="@+id/editText_plu"
+        android:layout_alignStart="@+id/editText_plu" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_grp"
+        android:layout_alignBottom="@+id/textView_grp"
+        android:layout_alignLeft="@+id/editText_cant"
+        android:layout_alignStart="@+id/editText_cant" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_opcionesvisibles"
+        android:layout_alignBottom="@+id/editText_grp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_plu"
+        android:layout_below="@+id/editText_ubic"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_ubic"
+        android:layout_alignBottom="@+id/textView_ubic"
+        android:layout_alignLeft="@+id/editText_plu"
+        android:layout_alignStart="@+id/editText_plu" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="-----------------------------------------------------------------------------------------"
+        android:id="@+id/textView13"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+    <GridView
+        android:numColumns="5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/gridView2"
+        android:layout_above="@+id/gridView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <GridView
+        android:numColumns="5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/gridView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

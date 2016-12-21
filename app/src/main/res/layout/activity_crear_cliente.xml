@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.proyectowms.CrearCliente"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/METRO_blue"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Crear Cliente"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/METRO_blue"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nit"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:id="@+id/editNit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/METRO_blue"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:inputType="textCapCharacters"
+                    android:layout_margin="10dp"
+                    android:id="@+id/editNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/METRO_blue"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Celular"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:id="@+id/editTel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/METRO_blue"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/METRO_blue"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sector"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:inputType="textCapCharacters"
+                    android:layout_margin="10dp"
+                    android:id="@+id/editSector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:onClick="guardar"
+                android:text="Guardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/proyectoWMS_METRO_Theme.Button.AceptarLogin"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

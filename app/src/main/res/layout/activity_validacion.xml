@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.david.proyectowms.Recepcion"
+    android:id="@+id/procesos"
+    style="@style/proyectoWMS_METRO_Theme.Layout.RelativeProcesos"
+    >
+    <ScrollView
+        style="@style/proyectoWMS_METRO_Theme.ScrollView"
+        >
+        <LinearLayout
+            style="@style/proyectoWMS_METRO_Theme.Layout.LinearLogin">
+
+            <ImageView
+                style="@style/proyectoWMS_METRO_Theme.ImageView.ImageRecepcion"
+                android:id="@+id/imageView"
+                android:onClick="camara"/>
+
+            <TextView
+                style="@style/proyectoWMS_METRO_Theme.TextView.TextViewValidacion"
+                android:id="@+id/textView_atributo" />
+
+            <EditText
+                style="@style/proyectoWMS_METRO_Theme.EditText.EditTextRecepcion"
+                android:id="@+id/editText_texto"
+                />
+
+            <LinearLayout
+                style="@style/proyectoWMS_METRO_Theme.Layout.LinearHorizontal"
+                >
+
+                <ImageButton
+                    style="@style/proyectoWMS_METRO_Theme.Button.WizardButton.First"
+                    android:id="@+id/imageButton6"
+                    android:onClick="anteriorPrimero"/>
+
+                <ImageButton
+                    style="@style/proyectoWMS_METRO_Theme.Button.WizardButton.Previous"
+                    android:id="@+id/imageButton7"
+                    android:onClick="atras"/>
+
+                <ImageButton
+                    style="@style/proyectoWMS_METRO_Theme.Button.WizardButton.Next"
+                    android:id="@+id/imageButton8"/>
+
+                <ImageButton
+                    style="@style/proyectoWMS_METRO_Theme.Button.WizardButton.Last"
+                    android:id="@+id/imageButton9"
+                    android:onClick="anteriorUltimo"/>
+            </LinearLayout>
+            <Button
+                style="@style/proyectoWMS_METRO_Theme.Button.AceptarLogin"
+                android:text="OK"
+                android:id="@+id/button_OK"
+                android:onClick="ok" />
+            <Button
+                style="@style/proyectoWMS_METRO_Theme.Button.CancelarLogin"
+                android:text="Salir"
+                android:id="@+id/button3"
+                android:onClick="cancelar" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
